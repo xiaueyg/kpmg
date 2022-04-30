@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  Default
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
